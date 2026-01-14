@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Projeto React – Props e Hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como atividade prática do curso da **Generation Brasil**, com o objetivo de aplicar os principais conceitos de **React**, especialmente **componentes**, **props** e **hooks**.
 
-Currently, two official plugins are available:
+A aplicação foi criada utilizando **React com Vite e TypeScript**, seguindo boas práticas de organização, legibilidade e componentização.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Objetivo da Atividade
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Compreender e aplicar o conceito de **componentes React**
+- Utilizar **props** para comunicação entre componentes
+- Utilizar **hooks**, principalmente o `useState`
+- Organizar o projeto de forma clara e funcional
+- Criar uma interface simples e funcional
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🛠️ Tecnologias Utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React**
+- **TypeScript**
+- **Vite**
+- **CSS**
+- **JavaScript (ES6+)**
+
+---
+
+## 📂 Estrutura do Projeto
+
+```txt
+src/
+ ├── pages/
+ │    ├── home/
+ │    ├── contador/
+ │    ├── tarefa/
+ │    └── login/
+ ├── App.tsx
+ ├── main.tsx
+ ├── App.css
+ └── index.css
+
+## Como Executar o Projeto
+
+Clone o repositório:
+
+git clone <https://github.com/edduarte-dev/props-hoocks-react>
+
+
+Acesse a pasta do projeto:
+
+cd nome-do-projeto
+
+
+Instale as dependências:
+
+npm install
+
+
+Execute o projeto:
+
+npm run dev
